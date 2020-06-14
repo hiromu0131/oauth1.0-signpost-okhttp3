@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ <h1>Result</h1>
+ <tr th:each="element : ${terms}">
+  <td>[[${element.key}]]</td>
+  <td>[[${element.value}]]</td>
+</tr>
+</body>
+</html>
